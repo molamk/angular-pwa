@@ -1,7 +1,5 @@
 ## Initalize dev environment (optional)\*
 sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
-git clone https://github.com/molamk/dotfiles.git
-cd dotfiles && ./setup.sh
 
 ## Install node yarn
 # NodeJs
