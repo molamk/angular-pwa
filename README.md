@@ -33,7 +33,7 @@ nvm install node
 
 ## Install angular
 ```bash
-# yarn global add @angular/cli
+yarn global add @angular/cli
 ```
 
 ---
