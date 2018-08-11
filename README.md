@@ -13,7 +13,7 @@ git clone https://github.com/molamk/dotfiles.git
 cd dotfiles && ./setup.sh
 ```
 
-## Install node, yarn & nvm
+## Install node, yarn, nvm & angular
 ```bash
 # NodeJs
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
@@ -31,9 +31,12 @@ reset
 nvm install node
 ```
 
-## Install angular
+## Create new angular app
 ```bash
+# Angular
 yarn global add @angular/cli
+ng new pwa-app --style=scss --routing
+cd pwa-app
 ```
 
 ---
