@@ -1,20 +1,9 @@
-# Progressive Web App with Angular
-## Self contained environment set-up
-```bash
-vagrant init ubuntu/xenial64
-vagrant up
-vagrant ssh
-```
-
 ## Initalize dev environment (optional)\*
-```bash
 sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y
 git clone https://github.com/molamk/dotfiles.git
 cd dotfiles && ./setup.sh
-```
 
 ## Install node yarn
-```bash
 # NodeJs
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install nodejs -y
@@ -24,13 +13,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update && sudo apt-get install yarn
 # Enable npm install -g without sudo
 
-```
 
 ## Install angular
-```bash
 # yarn global add @angular/cli
-```
-
----
-\* Default password is: `vagrant`
 
